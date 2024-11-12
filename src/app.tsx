@@ -1,7 +1,9 @@
+// import { GridPersonajes } from "./grid-mortadelo";
+// import {GridMiembros} from './grid-miembros'
+
+import { Rutas } from "./rutas";
+
 export const App = () => {
-  return (
-    <>
-      <h1>Bootcamps JS - TypeScript React SandBox</h1>
-    </>
-  );
+  // return <GridMiembros></GridMiembros>;
+  return <Rutas/>
 };
